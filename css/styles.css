@@ -44,9 +44,8 @@ align-items: center;
 }
 .menu-section {
     display: flex;
-    flex-direction: row;
     gap: 40px;
-    padding: 24px 0;
+    
 
 }
 .menu-link{
@@ -55,6 +54,7 @@ align-items: center;
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        display: block;
         padding: 24px 0;
 }
 .address-head{
