@@ -6,6 +6,10 @@ color: #434455;
 /*header*/ 
 }
 
+
+.header{
+    border-bottom: 1px solid #e7e9fc
+}
 .container {
 max-width: 1158px;
 padding-left: 15px;
@@ -14,46 +18,50 @@ margin-left: auto;
 margin-right: auto;
 
 }
-
-
-
-
 .header-container{
     display: flex;
+   
     
 }
-
 .nav-container {
     display: flex;
     gap: 40px;
     padding: 24px 0;
-   
-}
+align-items: center;
 
-.menu-section {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    
-        margin-top: 24px;
-        margin-left: 76px;
 }
-
 .logo-link{
     display: flex;
     margin-left: auto;
-    margin-top: 24px;
-   
+    
+    margin-right: 76px
+}
+.menu-section {
+    display: flex;
+    flex-direction: row;
+    
+    gap: 40px;
+    padding: 24px 0
+    
+}
+.address-head{
+margin-left: 332px;
+margin-top: 24px;
+}
+.address-section{
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+padding: 24px 0
+
 }
 
-.address-head{
-    display: inline-flex;
-    margin-top: 24px;
-    gap: 40px;
-    margin-right: 156px;
-    flex-direction: row;
-   
-}
+
+
+
+
+
+
 
 
 
