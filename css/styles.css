@@ -39,14 +39,14 @@ align-items: center;
 .logo-link{
     display: flex;
     margin-left: auto;
-    
+    padding: 24px 0;
     margin-right: 76px
 }
 .menu-section {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    padding: 24px 0
+    padding: 24px 0;
 
 }
 
@@ -203,14 +203,14 @@ background-color: #404BBF;
 .info-list{
     display: flex;
     gap: 24px;
-
+ padding-left: 0;
+        margin: 0;
 }
 .title-info{
     margin-bottom: 8px;
 }
 .info-li{
-     padding-left: 0;
-        margin: 0;
+    
     width: calc((100% - 3 * 24px) / 4);
 }
 
@@ -236,11 +236,12 @@ padding: 120px 0;
 .team-list{
     display: flex;
     gap: 24px;
+    padding-left: 0;
+        margin: 0;
 }
 .box-team{
       border-radius: 0px 0px 4px 4px;
-    padding-left: 0;
-        margin: 0;
+    
     width: calc((100% - 3 * 24px) / 4)
   
 }
@@ -316,6 +317,9 @@ padding: 120px 0;
     column-gap: 24px;
 row-gap: 48px;
     flex-wrap: wrap;
+    padding-left: 0;
+        margin: 0;
+
 }
 .box-portfolio{
     width: calc((100% - 48px) / 3);
