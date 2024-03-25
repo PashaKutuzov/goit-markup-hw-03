@@ -4,9 +4,66 @@ background-color: white;
 color: #434455;
  
 /*header*/ 
+}
 
+.container {
+max-width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
 
 }
+
+
+
+
+.header-container{
+    display: flex;
+    
+}
+
+.nav-container {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+   
+}
+
+.menu-section {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    
+        margin-top: 24px;
+        margin-left: 76px;
+}
+
+.logo-link{
+    display: flex;
+    margin-left: auto;
+    margin-top: 24px;
+   
+}
+
+.address-head{
+    display: inline-flex;
+    margin-top: 24px;
+    gap: 40px;
+    margin-right: 156px;
+    flex-direction: row;
+   
+}
+
+
+
+
+
+
+
+
+
+
  a {text-decoration:none;}
 .logo-link {
 font-family: "Raleway", sans-serif;
@@ -33,6 +90,7 @@ a:hover, a:focus {
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        
 }
 
 .contacts-link{
