@@ -49,7 +49,7 @@ margin-right: auto;
 .nav-container {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+   
 align-items: center;
 
 }
@@ -83,15 +83,8 @@ margin-left: auto;
    text-align: right;
     gap: 40px;
     
-padding: 24px 0
+padding: 24px 0;
 }
-
-
-
-
-
-
-
 
 
  
